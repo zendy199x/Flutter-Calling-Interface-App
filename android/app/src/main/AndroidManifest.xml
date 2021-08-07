@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.calling_interface">
    <application
-        android:label="calling_interface"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Calling Interface"
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
