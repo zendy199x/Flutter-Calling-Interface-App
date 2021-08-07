@@ -1,6 +1,5 @@
-import 'package:calling_interface/screens/audio_call_width_image/audio_call_with_image_screen.dart';
-import 'package:calling_interface/screens/dial_call/dial_call_screen.dart';
-import 'package:calling_interface/screens/group_call/group_call_screen.dart';
+import 'package:calling_interface/routes.dart';
+import 'package:calling_interface/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const GroupCallScreen(),
+      // home: const HomeScreen(),
+      initialRoute: HomeScreen.routeName,
+      routes: routes,
     );
   }
 }
